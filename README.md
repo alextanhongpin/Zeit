@@ -1,7 +1,7 @@
 
-# module-boilerplate
-Boilerplate to create js library
+# Zeit.js
 
+A JavaScript datetime library for datetime calculations.
 
 ### Usage
 
@@ -19,7 +19,6 @@ console.log(zeit.value)
 // Wed Nov 16 2016 16:08:50 GMT+0800 (MYT)
 ```
 
-
 ### Day
 
 ```javascript
@@ -32,6 +31,7 @@ console.log('zeit.dayEnd', zeit.dayEnd) // Wed Nov 16 2016 23:59:59 GMT+0800 (MY
 ```
 
 ### Week
+
 ```javascript
 console.log('zeit.week', zeit.week) // 46
 console.log('zeit.weekStart', zeit.weekStart) // Mon Nov 14 2016 00:00:00 GMT+0800 (MYT)
@@ -41,6 +41,7 @@ console.log('zeit.weekOfTheYearArray', zeit.weekOfTheYearArray)
 ```
 
 ### Month
+
 ```javascript
 console.log('zeit.month', zeit.month) // 10
 console.log('zeit.monthString', zeit.monthString) // Nov
@@ -79,6 +80,7 @@ console.log('zeit.isLeapYear', zeit.isLeapYear) // true
 ```
 
 ### Counts 
+
 ```javascript
 console.log('zeit.daysInAYear', zeit.daysInAYear) // 366
 console.log('zeit.daysInTheMonth', zeit.daysInTheMonth) // 30

@@ -1,14 +1,14 @@
 {
-  "name": "module-boilerplate",
+  "name": "zeit.js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Boilerplate to create js library",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/istanbul cover --report html node_modules/.bin/_mocha -- --ui bdd -R spec --recursive --watch",
+    "test": "istanbul cover --report html node_modules/.bin/_mocha -- --ui bdd -R spec --recursive --watch",
     "build": "BABEL_ENV=production babel src -o dist/app.minify.js",
     "watch": "BABEL_ENV=development babel src -o dist/app.minify.js --watch"
   },
-  "author": "",
+  "author": "alextanhongpin",
   "license": "ISC",
   "devDependencies": {
     "babel-plugin-remove-comments": "^2.0.0",
@@ -23,5 +23,13 @@
   "dependencies": {
     "istanbul": "^0.4.5",
     "mocha": "^3.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alextanhongpin/Zeit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alextanhongpin/Zeit/issues"
+  },
+  "homepage": "https://github.com/alextanhongpin/Zeit#readme"
 }
