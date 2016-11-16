@@ -359,12 +359,6 @@ class Zeit {
     return this.year === new Date().getFullYear()
   }
 
-  // @Bool returns boolean to indicate if this year is a leap year
-  get isLeapYear () {
-    // A leap year has 366 days
-    return this.yearCount === 366
-  }
-
   // @Int returns the number of days in a year
   get yearCount () {
     const start = new Date(this.year, 0, 1)
@@ -392,6 +386,12 @@ class Zeit {
   get yearEndOffset () {
     const zeit = new Zeit(this.yearEnd)
     return new Date(zeit.weekEnd)
+  }
+
+  // @Bool returns boolean to indicate if this year is a leap year
+  get daysInAYear () {
+    // A leap year has 366 days
+    return this.yearCount === 366
   }
 
   // @Float returns the percentage of the current day of the year
