@@ -1,5 +1,5 @@
 {
-  "name": "zeit",
+  "name": "zeit.js",
   "version": "1.0.3",
   "description": "JavaScript utility to carry out date time calculations",
   "main": "zeit.js",
