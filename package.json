@@ -1,12 +1,12 @@
 {
-  "name": "zeit.js",
-  "version": "1.0.2",
+  "name": "zeit",
+  "version": "1.0.3",
   "description": "JavaScript utility to carry out date time calculations",
-  "main": "index.js",
+  "main": "zeit.js",
   "scripts": {
     "test": "istanbul cover --report html node_modules/.bin/_mocha -- --ui bdd -R spec --recursive --watch",
-    "build": "BABEL_ENV=production babel src -o dist/app.minify.js",
-    "watch": "BABEL_ENV=development babel src -o dist/app.minify.js --watch"
+    "build": "BABEL_ENV=production babel src -o dist/zeit.minify.js",
+    "watch": "BABEL_ENV=development babel src -o dist/zeit.minify.js --watch"
   },
   "author": "alextanhongpin",
   "license": "ISC",
