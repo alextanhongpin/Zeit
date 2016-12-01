@@ -8,8 +8,6 @@
 <script type="text/javascript" src='dist/app.minify.js'></script>
 <script type="text/javascript">
 	const Zeit = app.default
-
-
 	const zeit = new Zeit()
 	console.log('zeit', zeit)
 	console.log('zeit.value', zeit.value)
@@ -17,26 +15,22 @@
 	zeit.value = new Date()
 	console.log('zeit.value = new Date()', zeit.value)
 	console.log('zeit.day', zeit.day)
-	console.log('zeit.dayShort', zeit.dayShort)
-	console.log('zeit.dayLong', zeit.dayLong)
+	console.log('zeit.dayStringShort', zeit.dayStringShort)
+	console.log('zeit.dayStringLong', zeit.dayStringLong)
 	console.log('zeit.dayStart', zeit.dayStart)
 	console.log('zeit.dayEnd', zeit.dayEnd)
 	console.log('zeit.isToday', zeit.isToday)
-	console.log('zeit.dayOfTheYear', zeit.dayOfTheYear)
-	console.log('zeit.daysInTheMonth', zeit.daysInTheMonth)
-	console.log('zeit.week', zeit.week)
+
+	console.log('zeit.week', zeit.week) // Alias with
 	console.log('zeit.weekStart', zeit.weekStart)
 	console.log('zeit.weekEnd', zeit.weekEnd)
 	console.log('zeit.weeksInAYear', zeit.weeksInAYear)
 	console.log('zeit.weekArray', zeit.weekArray)
-	console.log('zeit.weekOfTheMonth', zeit.weekOfTheMonth)
-	console.log('zeit.weekOfTheYear', zeit.weekOfTheYear)
-	console.log('zeit.weekOfTheYearArray', zeit.weekOfTheYearArray)
 	console.log('zeit.isThisWeek', zeit.isThisWeek)
 
 
 	console.log('zeit.month', zeit.month)
-	console.log('zeit.monthString', zeit.monthString)
+	console.log('zeit.monthStringShort', zeit.monthStringShort)
 	console.log('zeit.monthStringLong', zeit.monthStringLong)
 	console.log('zeit.monthStart', zeit.monthStart)
 	console.log('zeit.monthEnd', zeit.monthEnd)
@@ -48,12 +42,13 @@
 	console.log('zeit.monthArray', zeit.monthArray)
 	console.log('zeit.monthOffsetArray', zeit.monthOffsetArray)
 	console.log('zeit.monthCalendar', zeit.monthCalendar)
-	
+	console.log('zeit.isThisCalendarMonth', zeit.isThisCalendarMonth)
 
 	console.log('zeit.calendar', zeit.calendar)
 	console.log('zeit.nextMonth', zeit.nextMonth)
 	console.log('zeit.prevMonth', zeit.prevMonth)
 	console.log('zeit.isThisMonth', zeit.isThisMonth)
+
 	console.log('zeit.year', zeit.year)
 	console.log('zeit.isThisYear', zeit.isThisYear)
 	console.log('zeit.isLeapYear', zeit.isLeapYear)
@@ -62,6 +57,16 @@
 	console.log('zeit.yearStartOffset', zeit.yearStartOffset)
 	console.log('zeit.yearEndOffset', zeit.yearEndOffset)
 	console.log('zeit.progress', zeit.progress)
+
+
+	console.log('zeit.dayOfTheYear', zeit.dayOfTheYear)
+	console.log('zeit.daysInAYear', zeit.daysInAYear)
+	console.log('zeit.daysInTheMonth', zeit.daysInTheMonth)
+	console.log('zeit.daysInAMonthOffset', zeit.daysInAMonthOffset)
+	console.log('zeit.weekOfTheMonth', zeit.weekOfTheMonth)
+	console.log('zeit.weekStartOfTheYear', zeit.weekStartOfTheYear)
+	console.log('zeit.weekOfTheYear', zeit.weekOfTheYear)
+	console.log('zeit.weekOfTheYearArray', zeit.weekOfTheYearArray)
 
 
 	console.log('zeit.daysInAYear', zeit.daysInAYear)
